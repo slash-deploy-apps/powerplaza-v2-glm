@@ -1,28 +1,7 @@
 {
-  "schemaVersion": "1.0.0",
-  "platform": "cloud",
-  "app": {
-    "type": "webapp"
+  "deploy": {
+    "url": "https://powerplaza-v2-glm.app.slash.ai.kr",
+    "status": "building"
   },
-  "devServers": [
-    {
-      "id": "web",
-      "name": "web",
-      "command": "pnpm dev",
-      "port": 3000,
-      "cwd": ".",
-      "stopCommand": null,
-      "primary": true
-    }
-  ],
-  "preferences": {
-    "techPreference": "medium",
-    "questionLevel": "medium",
-    "designDocs": false
-  },
-  "deployment": {
-    "provider": "coolify",
-    "status": "deployed",
-    "url": "https://powerplaza-v2-glm.app.slash.ai.kr"
-  }
+  "db": null
 }
