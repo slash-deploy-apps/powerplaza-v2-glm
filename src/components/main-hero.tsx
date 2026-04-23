@@ -16,7 +16,7 @@ export function MainHero() {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-[#0F172A] py-24 text-white">
+    <section className="relative overflow-hidden bg-[#0F172A] pt-32 pb-24 text-white">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-[#0F172A] via-[#0F172A] to-[#0369A1]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(3,105,161,0.3),transparent_70%)]" />

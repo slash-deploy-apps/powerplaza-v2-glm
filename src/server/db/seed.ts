@@ -106,7 +106,7 @@ const dcDcSeriesList = [
     slug: 'pt',
     description: '25W 4:1 광폭 입력 DC-DC 컨버터입니다.',
     descriptionEn: '25W 4:1 wide input DC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p05.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc05.jpg',
     sortOrder: 6,
   },
   {
@@ -115,7 +115,7 @@ const dcDcSeriesList = [
     slug: 'pbr50',
     description: '50W 레일 마운트 DC-DC 컨버터입니다.',
     descriptionEn: '50W rail mount DC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p06.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc06.jpg',
     sortOrder: 7,
   },
   {
@@ -124,7 +124,7 @@ const dcDcSeriesList = [
     slug: 'upm',
     description: '고전력 밀도 DC-DC 컨버터입니다.',
     descriptionEn: 'High power density DC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p07.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc07.jpg',
     sortOrder: 8,
   },
   {
@@ -133,7 +133,7 @@ const dcDcSeriesList = [
     slug: 'ypm600',
     description: '600W 고전력 DC-DC 컨버터입니다.',
     descriptionEn: '600W high power DC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p08.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc08.jpg',
     sortOrder: 9,
   },
   {
@@ -142,7 +142,7 @@ const dcDcSeriesList = [
     slug: 'lpm600',
     description: '600W 저소음 DC-DC 컨버터입니다.',
     descriptionEn: '600W low noise DC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p09.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc09.jpg',
     sortOrder: 10,
   },
   {
@@ -162,7 +162,7 @@ const dcDcSeriesList = [
     slug: '78ns',
     description: '비절연형 저전력 DC-DC 컨버터입니다.',
     descriptionEn: 'Non-isolated low power DC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p10.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc10.jpg',
     sortOrder: 12,
   },
   {
@@ -171,7 +171,7 @@ const dcDcSeriesList = [
     slug: 'qpc20a',
     description: '20A 1/4 브릭 DC-DC 컨버터입니다.',
     descriptionEn: '20A 1/4 brick DC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p11.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc11.jpg',
     sortOrder: 13,
   },
   {
@@ -216,7 +216,7 @@ const dcDcSeriesList = [
     slug: 'nes50',
     description: '50W 산업용 DC-DC 컨버터입니다.',
     descriptionEn: '50W industrial DC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p12.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc12.jpg',
     sortOrder: 18,
   },
   {
@@ -225,7 +225,7 @@ const dcDcSeriesList = [
     slug: 'ubc160',
     description: '160A 버스 컨버터입니다.',
     descriptionEn: '160A bus converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p13.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc13.jpg',
     sortOrder: 19,
   },
   {
@@ -234,7 +234,7 @@ const dcDcSeriesList = [
     slug: 'uqc18a',
     description: '18A 1/4 브릭 DC-DC 컨버터입니다.',
     descriptionEn: '18A 1/4 brick DC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p14.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc14.jpg',
     sortOrder: 20,
   },
   {
@@ -243,7 +243,7 @@ const dcDcSeriesList = [
     slug: 'ypm100',
     description: '100W 하프 브릭 DC-DC 컨버터입니다.',
     descriptionEn: '100W half brick DC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/dc_p15.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/dc15.jpg',
     sortOrder: 21,
   },
 ];
@@ -276,7 +276,7 @@ const acDcSeriesList = [
     slug: 'cfs',
     description: '내장 필터 AC-DC 컨버터입니다.',
     descriptionEn: 'Built-in filter AC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/ac_p02.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/ac02.jpg',
     sortOrder: 3,
   },
   {
@@ -285,7 +285,7 @@ const acDcSeriesList = [
     slug: 'fs',
     description: '외장형 AC-DC 컨버터입니다.',
     descriptionEn: 'Enclosed AC-DC converters.',
-    imageUrl: 'https://powerplaza.net/shop/image/ac_p03.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/ac03.jpg',
     sortOrder: 4,
   },
   {
@@ -312,7 +312,7 @@ const acDcSeriesList = [
     slug: 'sf-fs-chassis',
     description: 'SF/FS 시리즈 전용 섀시입니다.',
     descriptionEn: 'Dedicated chassis for SF/FS series.',
-    imageUrl: 'https://powerplaza.net/shop/image/ac_p05.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/ac05.jpg',
     sortOrder: 7,
   },
   {
@@ -321,7 +321,7 @@ const acDcSeriesList = [
     slug: 'accessory',
     description: 'AC-DC 컨버터 액세서리입니다.',
     descriptionEn: 'AC-DC converter accessories.',
-    imageUrl: 'https://powerplaza.net/shop/image/ac_p06.jpg',
+imageUrl: 'https://powerplaza.net/shop/image/ac06.jpg',
     sortOrder: 8,
   },
 ];

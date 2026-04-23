@@ -1,36 +1,28 @@
 {
   "schemaVersion": "1.0.0",
-  "createdAt": "2026-04-13T06:14:05.876Z",
-  "updatedAt": "2026-04-13T06:14:18.323Z",
-  "platform": "local",
+  "platform": "cloud",
   "app": {
     "type": "webapp"
   },
+  "devServers": [
+    {
+      "id": "web",
+      "name": "web",
+      "command": "pnpm dev",
+      "port": 3000,
+      "cwd": ".",
+      "stopCommand": null,
+      "primary": true
+    }
+  ],
   "preferences": {
     "techPreference": "medium",
     "questionLevel": "medium",
-    "designDocs": true
+    "designDocs": false
   },
   "deployment": {
-    "provider": "none",
-    "status": "not_deployed",
-    "url": null,
-    "lastDeployedAt": null
-  },
-  "resources": [
-    {
-      "id": "res_db_project-db",
-      "kind": "database",
-      "role": "primary",
-      "provider": "turso",
-      "externalId": "project-db",
-      "status": "ready",
-      "connection": {
-        "urlEnv": "DATABASE_URL",
-        "tokenEnv": "DATABASE_AUTH_TOKEN"
-      },
-      "createdAt": "2026-04-13T06:14:18.322Z",
-      "updatedAt": "2026-04-13T06:14:18.322Z"
-    }
-  ]
+    "provider": "coolify",
+    "status": "deployed",
+    "url": "https://powerplaza-v2-glm.app.slash.ai.kr"
+  }
 }
