@@ -4,6 +4,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { TRPCReactProvider } from '~/trpc/react';
 import { routing } from '~/i18n/routing';
 import { SiteHeader } from '~/components/site-header';
+import { SiteFooter } from '~/components/site-footer';
 
 export const metadata: Metadata = {
   title: 'PowerPlaza - 전력 변환 솔루션',
@@ -31,6 +32,7 @@ export default async function LocaleLayout({
       <TRPCReactProvider>
         <SiteHeader />
         {children}
+        <SiteFooter />
       </TRPCReactProvider>
     </NextIntlClientProvider>
   );
