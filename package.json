@@ -2,7 +2,9 @@
   "name": "nextjs-trpc-shadcn-better-sqlite-better-auth-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "private": true,
   "type": "module",
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "build": "next build",
     "check": "next lint && tsc --noEmit",
