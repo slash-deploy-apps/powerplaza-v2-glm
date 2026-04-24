@@ -33,7 +33,7 @@ export default async function CategoryPage({
             <Card className="h-full transition-shadow hover:shadow-md">
               <div className="flex h-32 items-center justify-center rounded-t-lg bg-muted">
                 <img
-                  src={s.imageUrl || undefined}
+                  src={s.imageUrl ?? undefined}
                   alt={s.name}
                   className="h-full object-contain p-2"
                 />

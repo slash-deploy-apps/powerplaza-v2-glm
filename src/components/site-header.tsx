@@ -69,6 +69,7 @@ export function SiteHeader() {
           <div className="ml-auto flex items-center gap-2">
             <LanguageSwitcher />
             <ThemeToggle />
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
             <a href="/admin">
               <Button
                 variant="outline"
@@ -138,6 +139,7 @@ export function SiteHeader() {
                     <ThemeToggle />
                   </div>
                 </div>
+                {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                 <a
                   href="/admin"
                   onClick={() => setOpen(false)}

@@ -22,7 +22,7 @@ export function CategoryGrid() {
       <div className="container mx-auto px-4">
         <h2 className="mb-8 text-center text-2xl font-bold">{t('categories')}</h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {(categories || []).map((cat) => (
+          {(categories ?? []).map((cat) => (
             <Link key={cat.id} href={`/products/${cat.slug}`}>
               <Card className="group h-full overflow-hidden transition-shadow hover:shadow-lg">
                 <div className="relative h-48 w-full bg-muted">
@@ -34,7 +34,7 @@ export function CategoryGrid() {
                     />
                   ) : (
                     <div className="flex h-full items-center justify-center text-[#0369A1]">
-                      {categoryIcons[cat.slug] || <ZapIcon className="size-12" />}
+                      {categoryIcons[cat.slug] ?? <ZapIcon className="size-12" />}
                     </div>
                   )}
                 </div>

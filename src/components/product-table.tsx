@@ -66,13 +66,13 @@ export function ProductTable({ products, categorySlug, seriesSlug }: ProductTabl
                 {product.modelName}
               </Link>
             </TableCell>
-            <TableCell>{product.inputVoltage || '-'}</TableCell>
-            <TableCell>{product.outputVoltage || '-'}</TableCell>
-            <TableCell>{product.outputCurrent || '-'}</TableCell>
-            <TableCell>{product.outputType || '-'}</TableCell>
+            <TableCell>{product.inputVoltage ?? '-'}</TableCell>
+            <TableCell>{product.outputVoltage ?? '-'}</TableCell>
+            <TableCell>{product.outputCurrent ?? '-'}</TableCell>
+            <TableCell>{product.outputType ?? '-'}</TableCell>
             <TableCell>
               <div className="flex flex-wrap gap-1">
-                {(product.certifications || []).map((cert) => (
+                {(product.certifications ?? []).map((cert) => (
                   <CertificationBadge key={cert} type={cert} />
                 ))}
               </div>
