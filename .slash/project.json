@@ -22,7 +22,7 @@
   },
   "deploy": {
     "url": "https://powerplaza-v2-glm.app.slash.ai.kr",
-    "status": "running"
+    "status": "building"
   },
   "db": null
 }

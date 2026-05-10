@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { TRPCReactProvider } from '~/trpc/react';
 import { authClient } from '~/server/better-auth/client';
 import { useRouter, usePathname } from 'next/navigation';
 import { AdminSidebar } from '~/components/admin/sidebar';
@@ -31,26 +32,28 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   }
 
   if (!isAuthenticated || pathname === '/admin/login') {
-    return <>{children}</>;
+    return <TRPCReactProvider>{children}</TRPCReactProvider>;
   }
 
   return (
-    <div className="flex min-h-screen">
-      <AdminSidebar />
-      <main className="flex-1 overflow-auto">
-        <header className="flex h-14 items-center justify-end border-b px-6">
-          <button
-            onClick={async () => {
-              await authClient.signOut();
-              router.push('/admin/login');
-            }}
-            className="text-sm text-muted-foreground hover:text-foreground"
-          >
-            로그아웃
-          </button>
-        </header>
-        <div className="p-6">{children}</div>
-      </main>
-    </div>
+    <TRPCReactProvider>
+      <div className="flex min-h-screen">
+        <AdminSidebar />
+        <main className="flex-1 overflow-auto">
+          <header className="flex h-14 items-center justify-end border-b px-6">
+            <button
+              onClick={async () => {
+                await authClient.signOut();
+                router.push('/admin/login');
+              }}
+              className="text-sm text-muted-foreground hover:text-foreground"
+            >
+              로그아웃
+            </button>
+          </header>
+          <div className="p-6">{children}</div>
+        </main>
+      </div>
+    </TRPCReactProvider>
   );
 }

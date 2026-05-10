@@ -4,7 +4,7 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const config = {
-  transpilePackages: ['@tanstack/react-query', '@tanstack/query-core'],
+  transpilePackages: ['@tanstack/react-query', '@tanstack/query-core', 'better-auth'],
   images: {
     remotePatterns: [
       {
